@@ -12,13 +12,13 @@ In this folder https://github.com/remzi-arpacidusseau/ostep-code/tree/master/thr
 - `pc_single_cv.c`: What happens if you only use one condition variable
 - `pc.c`: A working solution
 
-In the terminal, type "make" to compile the C programs and run the executables in the following order:
-- ./join_spin
-- ./join_no_state_var
-- ./join_no_lock
-- ./join
-You will see that join_spin works but wastes CPU and thus slow. join_no_state_var and join_no_lock don't work (parent sleep forever since signal is lost).
-join is a working solution and join_modular is a modularized version.
+In the terminal, type `make` to compile the C programs and run the executables in the following order:
+- `./join_spin`
+- `./join_no_state_var`
+- `./join_no_lock`
+- `./join`
+You will see that `join_spin` works but wastes CPU and thus slow. `join_no_state_var` and `join_no_lock` don't work (parent sleep forever since signal is lost).
+`join` is a working solution and `join_modular` is a modularized version.
 
 ## Problem 1: 
 Write a program where the main default thread spawns N threads. When started, thread i should
