@@ -28,10 +28,11 @@ in any order. Add suitable synchronization using condition variables such that t
 their messages in the order 1, 2, ..., N. You may want to start with N = 2 and then move on to
 larger values of N. Note that you must solve all these exercises using condition variables, and not
 just inefficient busy waiting, for synchronization.
-Submit to Canvas screenshots without synchronization and with synchronization using condition variables.
+Submit to Canvas screenshots showing results without synchronization and with synchronization using condition variables.
 
 ## Problem 2:
 Write a program with N threads. Thread i must print number i in a continuous loop. Without any
 synchronization between the threads, the threads will print their numbers in any order. Now, add
 synchronization to your code such that the numbers are printed in the order 1, 2, ..., N, 1, 2, ...,
 N, and so on. You may want to start with N = 2 and then move on to larger values of N.
+Submit to Canvas screenshots showing results without synchronization and with synchronization using condition variables.
